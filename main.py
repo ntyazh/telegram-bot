@@ -70,4 +70,4 @@ def message_reply(message):
         bot.leave_chat(message.chat.id)
 
 
-bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True, interval=0, timeout=200)
